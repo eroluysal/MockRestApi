@@ -1,0 +1,11 @@
+{
+  "name": "Hello World",
+  "description": "This is a MOCK Rest API.",
+  "comments": [
+    {
+      "id": 192837192837,
+      "name": "Erol Uysal",
+      "comment": "Awesome!"
+    }
+  ]
+}
