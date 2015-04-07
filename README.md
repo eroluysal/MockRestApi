@@ -1,4 +1,4 @@
     npm install
-    sudo gulp webserver
+    gulp webserver
 
 Go to `http://localhost:8000` URL.
