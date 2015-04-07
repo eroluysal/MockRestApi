@@ -1,0 +1,10 @@
+{
+  "id": 1,
+  "title": "Hello dear!",
+  "message": "Hello dear, this is an example test message. This is an full message of incoming message.",
+  "from": {
+    "name": "Erol Uysal"
+  },
+  "is_reply": true,
+  "created_at": "2015-01-01 10:00:00"
+}
