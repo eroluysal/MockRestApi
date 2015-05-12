@@ -1,4 +1,5 @@
+# Mock Rest API
+#### For mobile and frontend developers.
+
     npm install
     gulp webserver
-
-Go to `http://localhost:8000` URL.
