@@ -1,6 +1,6 @@
+var fs = require('fs');
 var gulp = require('gulp');
 var webserver = require('gulp-webserver');
-var fs = require('fs');
 
 gulp.task('webserver', function() {
   gulp.src('app')
