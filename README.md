@@ -3,3 +3,5 @@
 
     npm install
     gulp webserver
+
+And go to `http://localhost:8000`.
