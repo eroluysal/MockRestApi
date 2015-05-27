@@ -12,9 +12,8 @@ gulp.task('webserver', function() {
       fallback: 'index.html',
       middleware: function(request, response, next) {
 
-        var path = request.originalUrl;
         var method = request.method;
-        var path = path.replace('?', '');
+        var path  = (request.originalUrl).replace('?', '');
 
         fs.readFile('./app'+path+'/'+method+'.json', function(error, buffer) {
           if (error) return next(error);
