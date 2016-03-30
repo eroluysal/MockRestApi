@@ -15,7 +15,9 @@ gulp.task('webserver', function() {
         var method = request.method;
         var path  = (request.originalUrl).replace('?', '');
 
-        fs.readFile('./app'+path+'/'+method+'.json', function(error, buffer) {
+        fs.readFile('./app/'+path+'/'+method+'.json', function(error, buffer) {
+          if (path == '/favicon.ico') return;
+
           if (error) return next(error);
 
           var responseHeader = {
